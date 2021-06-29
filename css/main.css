@@ -1,0 +1,51 @@
+html {
+  font-size: 16px;
+}
+
+li {
+  display: inline;
+  padding: 0.2rem;
+  margin-right: 0.2rem;
+}
+
+h1 {
+  color: purple;
+  margin: 0.5rem;
+}
+
+body {
+  font-family: Arial;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.primaryBackground {
+  background-color: goldenrod;
+}
+
+#active {
+  color: whitesmoke;
+}
+
+.h2-color {
+  color: blueviolet;
+}
+
+#color2 {
+  color: darkblue;
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  html {
+    font-size: 18px;
+  }
+}
